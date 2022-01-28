@@ -1,0 +1,64 @@
+.hero{
+    background-image: url(../images/animals.png) , url(../images/parrot.png);
+    background-repeat: no-repeat;
+    background-position: calc(50% - 780px) calc(50% - 86px) , calc(50% + 885px) calc(50% + 260px);
+    padding-top: 153px;
+    padding-bottom: 311px;
+}
+
+.hero__inner{
+    width: 608px;
+    margin-top: 160px;
+    margin-left: 725px;
+}
+
+.hero__title{
+    font-size: 70px;
+    font-style: "Medium";
+    line-height: 64px;
+    margin: 0;
+    padding: 0;
+}
+
+.hero__span{
+    color: #78C0DE;
+}
+
+.hero__text{
+    width: 495px;
+    margin: 0;
+    margin-top: 30px;
+    margin-bottom: 38px;
+    padding: 0;
+}
+
+.hero__paragraph{
+    color: #949494;
+    font-size: 16px;
+    font-style: "Medium";
+    line-height: 21px;
+    margin: 0;
+    padding: 0;
+}
+
+.box__link{
+    background-color: $main-Black-color;
+    padding: 16px 48px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-style: "Medium";
+    line-height: 20px;
+    color: #fff;
+    border-radius: 3px;
+    transition: 0.4s ease;
+
+    &:hover{
+        background-color: $main-Yellow-color;
+        color:#333;
+    }
+
+    &:active{
+        opacity: 0.6;
+    }
+}

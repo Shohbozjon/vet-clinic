@@ -1,0 +1,70 @@
+.clinic{
+    margin-bottom: 190px;
+}
+
+.clinic__inner{
+     position: relative;
+     z-index: 1;
+     width: 753px;
+     margin: 0 auto;
+     text-align: center;
+
+     &::before{
+         content: "";
+         position: absolute;
+         display: inline-block;
+         z-index: 2;
+         border: 1px solid #DBDBDB;
+         width: 140px;
+         left: 290px;
+         top: -43px;
+     }
+
+     &::after{
+        content: "";
+        position: absolute;
+        display: inline-block;
+        z-index: 2;
+        border: 1px solid #DBDBDB;
+        width: 140px;
+        left: 290px;
+        top: 115px;
+    }
+}
+
+.clinic__blockquote{
+    position: relative;
+     z-index: 1;
+    font-size: 20px;
+    font-style: "Medium";
+    line-height: 26px;
+    color: #949494;
+    margin-bottom: 70px;
+
+    &::before{
+        content: "";
+        position: absolute;
+        display: inline-block;
+        z-index: 2;
+        background-image: url(../images/quotation2.svg);
+        background-repeat: no-repeat;
+        width: 142px;
+        height: 128px;
+        left: -100px;
+        top: -30px;
+    }
+
+    &::after{
+        content: "";
+        position: absolute;
+        display: inline-block;
+        z-index: 2;
+        background-image: url(../images/quotation.svg);
+        background-repeat: no-repeat;
+        width: 142px;
+        height: 128px;
+        left: 730px;
+        top: 45px;
+    }
+}
+

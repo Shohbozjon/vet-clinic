@@ -1,0 +1,91 @@
+.contact{
+    margin-bottom: 200px;
+}
+
+.contact__inner{
+    display: flex;
+}
+
+.contact__basic{
+    background-color: $main-Black-color;
+    background-image: url(../images/communication-bg.png);
+    width: 967px;
+    height: 624px;
+}
+
+.contact__info{
+    width: 385px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 62px;
+    margin-left: 140px;
+}
+
+.contact__title{
+    width: 380px;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 62px;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 14px;
+}
+
+.contact__paragraph{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    color:#949494;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 29px;
+}
+
+.contact__input{
+    width: 375px;
+    height: 50px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    color:#949494;
+}
+
+.contact__input:nth-child(2){
+   margin: 14px 0;
+}
+
+.contact__textarea{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    width: 375px;
+    color:#949494;
+    margin-bottom: 30px;
+}
+
+.contact__link{
+    width: 225px;
+    text-decoration: none;
+    background-color: $main-Yellow-color;
+    color: #fff;
+    padding: 15px 49px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    transition: 0.5s ease;
+
+    &:hover{
+        color: $main-Yellow-color;
+        background-color: #333;
+    }
+    
+    &:active{
+        opacity: 0.5;
+    }
+}

@@ -1,0 +1,148 @@
+.site-footer{
+    background-color: #F3F3F3;
+    padding: 61px 65px 69px 65px;
+}
+
+.site-footer__inner{
+    display: flex;
+}
+
+.site-footer__navbar{
+    display: flex;
+}
+
+.navbar__list{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar__list:nth-child(1){
+    margin-right: 60px;
+    margin-left: 67px;
+}
+
+.navbar__item{
+    width: 115px;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar__item:nth-child(2){
+    margin: 14px 0;
+}
+
+.navbar__link{
+    text-decoration: none;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    color: $main-Black-color;
+
+    &:hover{
+        color: $main-Yellow-color;
+    }
+
+    &:active{
+        color: $main-Black-color;
+        opacity: 0.5;
+    }
+}
+
+
+.data{
+    display: flex;
+    flex-direction: column;
+    width: 120px;
+    margin-right: 130px;
+    margin-left: 150px;
+    position: relative;
+    z-index: 1;
+
+    &::before{
+        content: "";
+        position: absolute;
+        z-index: 2;
+        display: inline-block;
+        background-image: url(..//../images/footer-calendar.svg);
+        width: 16px;
+        height: 16px;
+        left: -25px;
+        top: 2px;
+    }
+}
+
+.data__time{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+    color: $main-Black-color;
+}
+
+.site-footer__address{
+    position: relative;
+    z-index: 1;
+    width: 157px;
+
+    &::before{
+        content: "";
+        position: absolute;
+        z-index: 2;
+        display: inline-block;
+        background-image: url(..//../images/footer-home.svg);
+        width: 16px;
+        height: 16px;
+        left: -25px;
+        top: 4px;
+    }
+    
+}
+
+.adres__link{
+    text-decoration: none;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    color: $main-Black-color;
+}
+
+.phone{
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    margin-left: 112px;
+
+    &::before{
+        content: "";
+        position: absolute;
+        z-index: 2;
+        display: inline-block;
+        background-image: url(../images/footer-tel.svg);
+        width: 16px;
+        height: 16px;
+        left: -25px;
+        top: 2px;
+    }
+}
+
+.phone__link{
+    text-decoration: none;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+    color: $main-Black-color;
+}
+
+.site-footer__bottom{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    color: #5C5C5C;
+    margin-left: 1090px;
+}

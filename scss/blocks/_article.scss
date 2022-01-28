@@ -1,0 +1,132 @@
+.article{
+    margin-bottom: 200px;
+}
+
+.article__title{
+    text-align: center;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    margin-bottom: 80px;
+}
+
+.article__inner{
+    display: flex;
+}
+
+.article__time{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+    color: #949494;
+    margin-left: 212px;
+}
+
+.hashtag__link{
+    text-decoration: none;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    color: #3D9CEA;
+}
+
+.hashtag__link:nth-child(2){
+    margin: 0 7px;
+}
+
+.article__list{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.article__item{
+    width: 305px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+.article__item:nth-child(2){
+    width:640px;
+    display: flex;
+    align-items: center;
+    margin-right: 24px;
+    margin-left: 24px;
+}
+
+.article__info{
+    width: 244px;
+    margin: 0 30px;
+    
+}
+
+.article__info:nth-child(2){
+    width: 335px;
+}
+
+
+.article__info-title{
+    width: 189px;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 13px;
+}
+
+.article__info-paragraph{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    color: #949494;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 36px;
+    
+}
+
+.article__link{
+    position: relative;
+    z-index: 1;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    text-decoration: none;
+    color: $main-Black-color;
+    margin-left: 50px;
+    transition: 0.5s ease;
+
+    &::before{
+        position: absolute;
+        z-index: 2;
+        content: "" ;
+        display: inline-block;
+        background-image: url(../images/pet.svg);
+        width: 24px;
+        height: 24px;
+        top: -5px;
+        left: -30px;
+    }
+
+    &:hover{
+        color: $main-Yellow-color;
+    }
+
+    &:active{
+        color: $main-Black-color;
+        opacity: 0.6;
+    }
+}
+
+
+
+
